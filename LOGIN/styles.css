@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0d4e84;
+    margin: 0;
+    padding: 20px;
+}
+
+.registration-form {
+    background-color: white;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form h1 {
+    text-align: center;
+}
+
+.registration-form p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.registration-form label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.terms input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.terms a {
+    color: #0d4e84;
+    text-decoration: none;
+}
+
+.register-btn {
+    width: 100%;
+    background-color: #0d4e84;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.register-btn:hover {
+    background-color: #0d4e84;
+}
+
+.social-register {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-register p {
+    margin-bottom: 10px;
+}
+
+.google-btn,
+.facebook-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.google-btn:hover {
+    background-color: #f1f1f1;
+}
+
+.facebook-btn {
+    background-color: #0d4e84;
+    color: white;
+    border: none;
+}
+
+.facebook-btn:hover {
+    background-color: #0d4e84;
+}

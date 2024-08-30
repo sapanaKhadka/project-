@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Contact Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="map-container">
+            <div class="map">
+                <!-- Embedded Google Map -->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14132.384951964632!2d85.31556412183545!3d27.6834202792214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xac2ad7ef1763544b%3A0x6b72a5fb9f5735a7!2sSkill%20Spark!5e0!3m2!1sen!2snp!4v1724739283108!5m2!1sen!2snp"
+                    width="800" height="1200" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="map-details">
+                <h2>Skillspark</h2>
+                <p>Sankhamul Tower 6th follor,Kathmandu</p>
+                <p>⭐⭐⭐⭐⭐ 5.0 - 7 reviews</p>
+
+            </div>
+        </div>
+
+        <div class="form-container">
+            <form>
+                <h1> Contact Us</h1>
+                <label for="full-name">Full name</label>
+                <input type="text" id="full-name" placeholder="e.g. Sapana Khadka">
+
+                <label for="phone">Phone number</label>
+                <div class="phone-input">
+                    <span>+977</span>
+                    <input type="text" id="phone" placeholder="98XXXXXXXX">
+                </div>
+                <label for="email">Email address </label>
+                <input type="email" id="email" placeholder="Enter your email address">
+
+
+
+                <label for="message">Your message</label>
+                <textarea id="message" placeholder="Enter your comments"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
